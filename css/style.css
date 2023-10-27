@@ -1,0 +1,101 @@
+:root {
+    --color-one: #172026;
+    --color-two: #5FCDD9;
+    --color-three: #027373;
+    --color-four: #04BFAD;
+    --color-five: #04BF9D;
+}
+
+.navbar{
+    background-color: var(--color-three);
+}
+
+.img-carousel{
+    background-color: var(--color-four);
+    height: 300px;
+    position: relative
+}
+.img-carousel img{
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.descPromotion{
+    background-color: var(--color-three);
+    color: white;
+}
+
+.carousel-categories div img{
+    background-color: var(--color-five);
+    border: 1px solid var(--color-one);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-default{
+    background-color: var(--color-one);
+}
+.container{
+    min-height: 100vh;
+}
+footer{
+    height: 50px;
+    background-color: var(--color-five);
+    width: 100%;
+}
+
+.card{
+    background-color: var(--color-two);
+    align-items: center;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+}
+
+.bg-default{
+    background-color: var(--color-four);
+}
+
+.btn-default{
+    background-color: var(--color-one);
+    color: var(--color-two);
+}
+.btn-default:hover{
+    background-color: var(--color-three);
+}
+.discount{
+    background-color: rgb(217, 255, 217);
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 20%;
+}
+.icone-desconto{
+    background-color: rgb(7, 170, 7);
+    padding: 2px;
+    border-radius: 10%;
+    color: white;
+    
+}
+.icon{
+    width: 50px;
+}
+.link-no-style{
+    color: inherit;
+    text-decoration: none;
+}
+.div-search-return{
+    background-color: var(--color-two);
+    position: absolute;
+    z-index: 2;
+    /* display: none; */
+    width: 25%;
+}
+.form-search{
+    width: 40%;
+}
